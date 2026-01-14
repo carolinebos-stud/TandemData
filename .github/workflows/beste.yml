@@ -16,7 +16,7 @@ jobs:
 
       - name: Send Humidity to Tandem
         run: |
-          curl -X POST "https://:c9FYCwNrRcmAybDAirmOfA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:4ogcPbkuSw-SepL4eC-crg/streams/AQAAAO7_W_rI2k5hoXokBO6qy2QAAAAA" \
+          curl -X POST "https://:JAqnj1XiQs2lWrZmS16WFg@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:4ogcPbkuSw-SepL4eC-crg/streams/AQAAAO7_W_rI2k5hoXokBO6qy2QAAAAA" \
           -H "Content-Type: application/json" \
           -d @humidity.json
 
