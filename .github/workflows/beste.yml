@@ -26,5 +26,6 @@ jobs:
           -H "Content-Type: application/json" \
           -d @temperature.json
 
+
           echo Add other actions to build,
           echo test, and deploy your project.
